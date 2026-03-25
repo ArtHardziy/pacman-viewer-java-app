@@ -1,0 +1,15 @@
+services:
+  cfgview:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cfgview:local
+    container_name: cfgview-app
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ./data:/app/data
+      - ./:/workspace:ro
+    working_dir: /app/data
+    restart: "no"

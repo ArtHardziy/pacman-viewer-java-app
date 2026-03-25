@@ -1,0 +1,5042 @@
+[
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.bootstrap.servers",
+            "description": "servers",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "pvlaq-efs000907.ca.sbrf.ru:9093,pvlaq-efs000908.ca.sbrf.ru:9093,pvlaq-efs000909.ca.sbrf.ru:9093"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.settingstopic",
+            "description": "settingsTopic",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "monitoring.settings"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.metricstopic",
+            "description": "metricsTopic",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "monitoring.metrics"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.metadatatopic",
+            "description": "metadataTopic",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "monitoring.metadata"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.filtertopic",
+            "description": "filterTopic",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "monitoring.filters"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.namekeystore",
+            "description": "keyStore",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "UKOFLSSL"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.nametruststore",
+            "description": "trustStore",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "UKOFLSSL"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.ssl.endpoint.identification.algorithm",
+            "description": "identificationAlgorithm",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": []
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.security.protocol",
+            "description": "securityProtocol",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "PLAINTEXT"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.enabled.protocols",
+            "description": "enabledProtocols",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "TLSv1.2"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.producer.delivery.timeout.ms",
+            "description": "deliveryTimeoutMs",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "120000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.producer.batch.size",
+            "description": "batchSize",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "262144"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.producer.linger.ms",
+            "description": "lingerMs",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "0"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.producer.buffer.memory",
+            "description": "bufferMemory",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "44040192"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.producer.max.request.size",
+            "description": "maxRequestSize",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "44040192"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.producer.metadata.max.age.ms",
+            "description": "metadataMaxAgeMs",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "300000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.producer.connections.max.idle.ms",
+            "description": "connectionsMaxIdleMs",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "540000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.producer.max.block.ms",
+            "description": "maxBlockMs",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "60000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.producer.compression.type",
+            "description": "compressionType",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "none"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.producer.send.buffer.bytes",
+            "description": "sendBufferBytes",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "131072"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.producer.receive.buffer.bytes",
+            "description": "receiveBufferBytes",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "32768"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.producer.request.timeout.ms",
+            "description": "requestTimeoutMs",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "30000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.consumer.session.timeout.ms",
+            "description": "sessionTimeoutMs",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "10000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.consumer.fetch.max.bytes",
+            "description": "fetchMaxBytes",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "52428800"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.consumer.fetch.max.wait.ms",
+            "description": "fetchMaxWaitMs",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "500"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.consumer.fetch.min.bytes",
+            "description": "fetchMinBytes",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "1"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.consumer.max.poll.interval.ms",
+            "description": "maxPollIntervalMs",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "300000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.consumer.heartbeat.interval.ms",
+            "description": "heartbeatIntervalMs",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "3000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.consumer.max.partition.fetch.bytes",
+            "description": "maxPartitionFetchBytes",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "1048576"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.consumer.send.buffer.bytes",
+            "description": "sendBufferBytes",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "131072"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.consumer.receive.buffer.bytes",
+            "description": "receiveBufferBytes",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "65536"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "monitoring.kafka.consumer.request.timeout.ms",
+            "description": "requestTimeoutMs",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "30000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufsparams.agent.baseurl.openshift",
+            "description": "Base url for IAG-mm для OSE",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "http://mm-core-greenfield.online.sberbank.ru:7070/paramsv2/"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufsparams.agent.baseurl",
+            "description": "Base url for IAG-mm (например, для WAS)",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "https://mm-core-greenfield.online.sberbank.ru:9443/paramsv2/"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufsparams.agent.delay",
+            "description": "Interval between configuration refresh checks",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "10000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufsparams.agent.max.file.size",
+            "description": "Максимальный размер файла конфигурации",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "104857600"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufsparams.agent.min.file.size",
+            "description": "Минимальный размер файла конфигурации",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "50"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufsparams.agent.ignore.file.pattern",
+            "description": "Паттерн, по которому Агент не будет отслеживать файл для обновления из БД",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "glob:**sup2_common.json"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufsparams.agent.httpclient.circuitbreaker.enable",
+            "description": "Признак работы механизма circuit breaker. Если указано false, то http вызов происходит без декорирования механизмом circuit breaker.",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "false"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufsparams.agent.httpclient.circuitbreaker.failurerate.threshold",
+            "description": "Процент отказов в потоке запросов. После превышения данного процента поток будет прерван (переход в режим OPEN).",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "50"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufsparams.agent.httpclient.circuitbreaker.openstate.duration",
+            "description": "Время ожидания перед переходом от режима работы OPEN к HALF_OPEN",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "60000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufsparams.agent.httpclient.circuitbreaker.halfopen.requestbuffer",
+            "description": "Размер буфера запросов в режиме HALF_OPEN. После заполнения буфера высчитывается процент отказов или процент медленных запросов для принятия решения о повторном прерывании потока (переход в режим OPEN) или о переходе в обычный режим работы потока запросов (переход в режим CLOSED). По умолчанию значение для данной настройки \"0\" и в этом случае реальный размер буфера запрос в режиме HALF_OPEN равен размеру буфера запросов в режиме CLOSED.",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "0"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufsparams.agent.httpclient.circuitbreaker.minimumcalls.size",
+            "description": "Минимальное количество вызовов, которое требуется (в режиме CLOSED), прежде чем CircuitBreaker сможет вычислить частоту ошибок. По умолчанию значение для данной настройки \"10\".",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "10"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufsparams.agent.startup.synchronization.timeout",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "3000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "healthcheck.metric.task.attempt.period",
+            "description": "Задержка перед повторной попыткой снятия метрик",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [
+                        {
+                            "name": "SUBSYSTEM",
+                            "value": ""
+                        },
+                        {
+                            "name": "DEPLOYMENT_UNIT",
+                            "value": ""
+                        },
+                        {
+                            "name": "CHANNEL",
+                            "value": ""
+                        }
+                    ],
+                    "values": [
+                        "2000"
+                    ],
+                    "pathHash": "feef8468dfb8386e5db209a8b32a15c7f54505e2",
+                    "nameHash": "8212c0f7fbc0ba958037c4a7284c0566e177c6d7"
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "healthcheck.cascadeprotection.attempt.period",
+            "description": "Задержка перед повторной попыткой обработки метрик и установки флага в мс",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [
+                        {
+                            "name": "SUBSYSTEM",
+                            "value": ""
+                        },
+                        {
+                            "name": "DEPLOYMENT_UNIT",
+                            "value": ""
+                        },
+                        {
+                            "name": "CHANNEL",
+                            "value": ""
+                        }
+                    ],
+                    "values": [
+                        "10000"
+                    ],
+                    "pathHash": "feef8468dfb8386e5db209a8b32a15c7f54505e2",
+                    "nameHash": "8212c0f7fbc0ba958037c4a7284c0566e177c6d7"
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "healthcheck.cascadeprotection.chatter.step.count",
+            "description": "Объем выборки окна дребезга",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [
+                        {
+                            "name": "SUBSYSTEM",
+                            "value": ""
+                        },
+                        {
+                            "name": "DEPLOYMENT_UNIT",
+                            "value": ""
+                        },
+                        {
+                            "name": "CHANNEL",
+                            "value": ""
+                        }
+                    ],
+                    "values": [
+                        "5"
+                    ],
+                    "pathHash": "feef8468dfb8386e5db209a8b32a15c7f54505e2",
+                    "nameHash": "8212c0f7fbc0ba958037c4a7284c0566e177c6d7"
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "healthcheck.cascadeprotection.chatter.percent",
+            "description": "Процент значений метрик превышающий дребезг",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [
+                        {
+                            "name": "SUBSYSTEM",
+                            "value": ""
+                        },
+                        {
+                            "name": "DEPLOYMENT_UNIT",
+                            "value": ""
+                        },
+                        {
+                            "name": "CHANNEL",
+                            "value": ""
+                        }
+                    ],
+                    "values": [
+                        "50"
+                    ],
+                    "pathHash": "feef8468dfb8386e5db209a8b32a15c7f54505e2",
+                    "nameHash": "8212c0f7fbc0ba958037c4a7284c0566e177c6d7"
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "healthcheck.metric.logger.attempt.period",
+            "description": "Периодичность логирования ошибок незаданных пороговых значений (мс)",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [
+                        {
+                            "name": "SUBSYSTEM",
+                            "value": ""
+                        },
+                        {
+                            "name": "DEPLOYMENT_UNIT",
+                            "value": ""
+                        },
+                        {
+                            "name": "CHANNEL",
+                            "value": ""
+                        }
+                    ],
+                    "values": [
+                        "600000"
+                    ],
+                    "pathHash": "feef8468dfb8386e5db209a8b32a15c7f54505e2",
+                    "nameHash": "8212c0f7fbc0ba958037c4a7284c0566e177c6d7"
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "healthcheck.metric.logger.level",
+            "description": "Уровень логирования ошибок незаданных пороговых значений",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [
+                        {
+                            "name": "SUBSYSTEM",
+                            "value": ""
+                        },
+                        {
+                            "name": "DEPLOYMENT_UNIT",
+                            "value": ""
+                        },
+                        {
+                            "name": "CHANNEL",
+                            "value": ""
+                        }
+                    ],
+                    "values": [
+                        "WARN"
+                    ],
+                    "pathHash": "feef8468dfb8386e5db209a8b32a15c7f54505e2",
+                    "nameHash": "8212c0f7fbc0ba958037c4a7284c0566e177c6d7"
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "healthcheck.cascadeprotection.errorcode",
+            "description": "Код ошибки для механизма защиты от каскадных отказов.",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [
+                        {
+                            "name": "SUBSYSTEM",
+                            "value": ""
+                        },
+                        {
+                            "name": "DEPLOYMENT_UNIT",
+                            "value": ""
+                        },
+                        {
+                            "name": "CHANNEL",
+                            "value": ""
+                        }
+                    ],
+                    "values": [
+                        "503"
+                    ],
+                    "pathHash": "feef8468dfb8386e5db209a8b32a15c7f54505e2",
+                    "nameHash": "8212c0f7fbc0ba958037c4a7284c0566e177c6d7"
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "platform.client.ip.header",
+            "description": "Название http заголовка, в котором содержится ip адрес клиента",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "X-Forwarded-For"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "platform.http.timeout",
+            "description": "Таймаут http запроса",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "10000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "pv.node.type",
+            "description": "Тип блока, принимает одно из 3-х допустимых значений: PRIMARY, SANDBOX, CTL",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "PRIMARY"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.tenant.code",
+            "description": "Код тенанта",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "PRO-SBOL"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufsparams.module.monitoring.enabled",
+            "description": "Включение отправки метрики мониторинга при запросе параметра в ФП СУП. (true - метрики отправляются, false - метрики не отправляются)",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "false"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufsparams.module.logging.level",
+            "description": "Уровень логирования для RequestResultPrinter",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": []
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.baseurl.susd",
+            "description": "Базовый URL для доступа к серверной части ССД",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "Not used"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.connections.max.total.susd",
+            "description": "Максимальное количество соединений от КМ ССД к серверной части ССД",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "150"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.connections.max.per-route.susd",
+            "description": "Максимальное количество соединений от КМ ССД к серверной части ССД на узел",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "150"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.time-out.request.milliseconds.susd",
+            "description": "Таймаут запросов от КМ ССД к серверной части ССД (в миллисекундах)",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "3000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.time-out.connection.milliseconds.susd",
+            "description": "Таймаут на соединение от КМ ССД к серверной части ССД (в миллисекундах)",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "500"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.headers.name.server-ip.susd",
+            "description": "Конфигурация передачи IP-адреса сервера в заголовке от КМ ССД к серверной части ССД",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "ufs-client-ip"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.enable.susd",
+            "description": "Признак работы механизма circuit breaker",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "false"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.failure-rate.threshold.percent.susd",
+            "description": "Максимальный процент ошибок в потоке запросов, после превышения которого circuit breaker перейдет в режим OPEN, и поток запросов будет прерван",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "50"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.state.closed.request-buffer.size.request-count.susd",
+            "description": "Размер буфера запросов для режима CLOSED, после заполнения которого рассчитывается процент ошибок в потоке запросов",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "120"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.state.half-open.request-buffer.size.request-count.susd",
+            "description": "Размер буфера запросов для режима HALF_OPEN, после заполнения которого рассчитывается процент ошибок в потоке запросов",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "0"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.state.open.duration.milliseconds.susd",
+            "description": "Длительность режима OPEN механизма circuit breaker, в течение действия которого поток запросов прерван (в миллисекундах)",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "60000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.record.exceptions.susd",
+            "description": "Список исключений, которые считаются ошибкой и влияют на механизм circuit breaker",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": []
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.record.httpexception.codes.susd",
+            "description": "Список HTTP-кодов для исключений, которые считаются ошибкой для механизма circuit breaker",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": []
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.smooth-start.rate-limit.upper.requests-per-second.susd",
+            "description": "Предел ограничения скорости запросов, при достижении которого задача плавного старта завершается",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "2"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.smooth-start.rate-limit.start.percent.susd",
+            "description": "Ограничение скорости запросов в момент запуска задачи плавного старта. Указывается в процентах от предела ограничения скорости запросов",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "50"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.smooth-start.rate-limit.change-step.percent.susd",
+            "description": "Шаг изменения ограничения скорости запросов в процессе работы задачи плавного старта. Указывается в процентах от предела ограничения скорости запросов",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "5"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.bulkhead.enable.susd",
+            "description": "Признак работы механизма bulkHead",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "true"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.bulkhead.max-attempts.susd",
+            "description": "Максимальное количество попыток повтора применения функциональности bulkHead",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "30"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.bulkhead.max-concurrent-calls.susd",
+            "description": "Максимальное количество конкурентных вызовов методов-обработчиков в параллельных потоках",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "150"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.bulkhead.wait-duration.susd",
+            "description": "Время ожидания для bulkHead при достижении максимального количества конкурентных вызовов (в миллисекундах)",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "100"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.baseurl.susd.healthcheck",
+            "description": "Базовый URL для доступа для запросов healthcheck к серверной части ССД",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "Not used"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.connections.max.total.susd.healthcheck",
+            "description": "Максимальное количество соединений для запросов healthcheck от КМ ССД к серверной части ССД",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "3"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.connections.max.per-route.susd.healthcheck",
+            "description": "Максимальное количество соединений для запросов healthcheck от КМ ССД к серверной части ССД на узел",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "3"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.time-out.request.milliseconds.susd.healthcheck",
+            "description": "Таймаут запросов healthcheck от КМ ССД к серверной части ССД (в миллисекундах)",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "3000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.time-out.connection.milliseconds.susd.healthcheck",
+            "description": "Таймаут на соединение для запросов healthcheck от КМ ССД к серверной части ССД (в миллисекундах)",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "500"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.headers.name.server-ip.susd.healthcheck",
+            "description": "Конфигурация передачи IP-адреса сервера в заголовке от КМ ССД к серверной части ССД",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "ufs-client-ip"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.enable.susd.healthcheck",
+            "description": "Признак работы механизма circuit breaker",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "false"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.failure-rate.threshold.percent.susd.healthcheck",
+            "description": "Максимальный процент ошибок в потоке запросов, после превышения которого circuit breaker перейдет в режим OPEN, и поток запросов будет прерван",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "50"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.state.closed.request-buffer.size.request-count.susd.healthcheck",
+            "description": "Размер буфера запросов для режима CLOSED, после заполнения которого рассчитывается процент ошибок в потоке запросов",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "120"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.state.half-open.request-buffer.size.request-count.susd.healthcheck",
+            "description": "Размер буфера запросов для режима HALF_OPEN, после заполнения которого рассчитывается процент ошибок в потоке запросов",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "0"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.state.open.duration.milliseconds.susd.healthcheck",
+            "description": "Длительность режима OPEN механизма circuit breaker, в течение действия которого поток запросов прерван (в миллисекундах)",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "60000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.record.exceptions.susd.healthcheck",
+            "description": "Список исключений, которые считаются ошибкой и влияют на механизм circuit breaker",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": []
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.record.httpexception.codes.susd.healthcheck",
+            "description": "Список HTTP-кодов для исключений, которые считаются ошибкой для механизма circuit breaker",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": []
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.smooth-start.rate-limit.upper.requests-per-second.susd.healthcheck",
+            "description": "Предел ограничения скорости запросов, при достижении которого задача плавного старта завершается",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "2"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.smooth-start.rate-limit.start.percent.susd.healthcheck",
+            "description": "Ограничение скорости запросов в момент запуска задачи плавного старта. Указывается в процентах от предела ограничения скорости запросов",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "50"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.smooth-start.rate-limit.change-step.percent.susd.healthcheck",
+            "description": "Шаг изменения ограничения скорости запросов в процессе работы задачи плавного старта. Указывается в процентах от предела ограничения скорости запросов",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "5"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.bulkhead.enable.susd.healthcheck",
+            "description": "Признак работы механизма bulkHead",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "true"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.bulkhead.max-attempts.susd.healthcheck",
+            "description": "Максимальное количество попыток повтора применения функциональности bulkHead",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "30"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.bulkhead.max-concurrent-calls.susd.healthcheck",
+            "description": "Максимальное количество конкурентных вызовов методов-обработчиков в параллельных потоках",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "150"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.bulkhead.wait-duration.susd.healthcheck",
+            "description": "Время ожидания для bulkHead при достижении максимального количества конкурентных вызовов (в миллисекундах)",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "100"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "susd.cluster.baseurl",
+            "description": "URL для доступа клиентского модуля ССД к серверной части ССД",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "http://mm-core-greenfield.online.sberbank.ru:7070"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "susd.cluster.context.path",
+            "description": "Context path серверной части ССД",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "ufs-session-master/rest"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "susd.client.header.names.to.proxy",
+            "description": "Список заголовков через запятую, которые КМ ССД берёт из текущих бизнес запросов в запросы к кластеру",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "UFS-GO-NODE"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "susd.client.target.node.header.name",
+            "description": "Имя header-а запроса для его отправки в требуемый контур (nodeCode)",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "UFS-GO-NODE"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "susd.client.target.node.header.tmp.forced.value",
+            "description": "Временное принудительное значение для header-а запроса, направляющего его в требуемый контур (nodeCode). '-' - это отсутствие значения",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "-"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "susd.client.target.node.random.selection.header.name",
+            "description": "Имя header-а запроса для случайного выбора требуемого контура (nodeCode, пока значение не получено из кластера)",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "UFS-REPLICA-KEY"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "susd.client.preferred.node.header.name",
+            "description": "Имя header-а запроса для его отправки в предпочитаемый контур (nodeCode, пока значение не получено из кластера)",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "UFS-PREFERRED-NODE"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.baseurl.sbpcontextfl_http_client",
+            "description": "Базовый url ФП подсистемы сбора и хранения данных контекста обслуживания",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "http://api-bh-gf.fl.sbolpro.sberbank.ru:7070"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "url.path.sbpcontextfl.client",
+            "description": "url /path запроса ФП подсистемы сбора и хранения данных контекста из сегмента ФЛ",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "/sbpcontext-fl/rest/v1/context"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "url.path.sbpcontextfl.v2.emp.client",
+            "description": "url /path запроса ФП подсистемы сбора и хранения данных контекста из сегмента ФЛ",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "/sbpcontext-fl/rest/v2/context/emp"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "url.path.sbpcontextfl.v2.fl.client",
+            "description": "url /path запроса ФП подсистемы сбора и хранения данных контекста из сегмента ФЛ v2",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "/sbpcontext-fl/rest/v2/context/fl"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.time-out.request.milliseconds.sbpcontextfl_http_client",
+            "description": "Тайм-аут на запрос (указывается в ms)",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "2900"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "url.path.sbpcontextfl.v2.empfl.client",
+            "description": "Параметр для получения сервиса /v2/context",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "/sbpcontext-fl/rest/v2/context"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "healthcheck.cascadeprotection.isdisabled",
+            "description": "Отключение защиты от каскадных отказов HTTP транспорта версия 2",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "true"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.propagate.session.enable.emplpr",
+            "description": "Проброс авторизационных куки в запрос к ФП Профиль Сотрудника",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [
+                        {
+                            "name": "PLATFORM_RUNTIME_ENVIRONMENT",
+                            "value": "OPENSHIFT"
+                        },
+                        {
+                            "name": "SUBSYSTEM",
+                            "value": "SBPCONTEXT"
+                        }
+                    ],
+                    "values": [
+                        "true"
+                    ],
+                    "pathHash": "ab970a4bbb3ce8812708760fa1eb19ba83947da7",
+                    "nameHash": "83aaa916fcb99229f81301a87aa5e4e3e028312c"
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "sbpcontext.token.expiration.period",
+            "description": "Время жизни токена контекста",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "3600000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.sds.monitoring.metrics.sending.periodicity",
+            "description": "Время жизни токена контекста",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "10000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.enable.autogala",
+            "description": "Feature Toggle для Автогаля",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "true"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "susd.client.local.sections.forbidden",
+            "description": "Локаьные секции ССД",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "false"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.sds.monitoring.async.send.metrics",
+            "description": "Включение асинхронной отправки метрик в мониторинг",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "true"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.sds.monitoring.async.queue.max.size",
+            "description": "Максимальный размер очереди асинхронной отправки метрик",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "100000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.execution.operation-whitelist",
+            "description": "Список разрешенных операций в формате operation_code:operation_alias",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "SBER_DEPOSIT_BEST:deposit_best_percent",
+                        "SBER_DEPOSIT_CARE_FUTURE:deposit_care_future",
+                        "SBER_DEPOSIT_SBER_VKLAD:deposit_sber_vklad",
+                        "SBER_ACCOUNT_ACCUMULATION:account_accumulation",
+                        "SBER_CARD_DEBIT:sber-card-debit",
+                        "SBER_ACCOUNT_SAVING:deposit_saving_account"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.dom-update.encoding",
+            "description": "Кодирование данных страницы в domUpdate",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "true"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.dom-update.html-data",
+            "description": "Включение передачи htmlData в domUpdate",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "true"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.dom-update.controls",
+            "description": "Включение передачи controls в domUpdate",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "true"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.admin-panel.enabled",
+            "description": "Включение панели администратора",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "true"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.admin-panel.local-mode",
+            "description": "Включение режима работы с локальным бэком",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "false"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.admin-panel.employee-numbers",
+            "description": "Табельные номера сотрудников, которым разрешен доступ в админку",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "1584900",
+                        "1681111",
+                        "2011008",
+                        "2003010",
+                        "1967471",
+                        "1671498",
+                        "1731222",
+                        "2041132",
+                        "40748",
+                        "1471963",
+                        "1963442"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.modes.enabled",
+            "description": "Включенные режимы работы",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "BY_PRODUCTS_IN_CART",
+                        "DIRECT",
+                        "CC_HINT"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.modes.vsp",
+            "description": "Разрешенные ВСП для режимов запуска сценариев",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [
+                        {
+                            "name": "MODE_CODE",
+                            "value": "DIRECT"
+                        }
+                    ],
+                    "values": [
+                        "38903899998",
+                        "38903899981"
+                    ],
+                    "pathHash": "5d237781d97b83aa19d57069da248b78cf8c8011",
+                    "nameHash": "440053782afcb4b743165a2c8b396ac98bb9e8c7"
+                },
+                {
+                    "path": [
+                        {
+                            "name": "MODE_CODE",
+                            "value": "CC_HINT"
+                        }
+                    ],
+                    "values": [
+                        "38903899998",
+                        "38903899981",
+                        "38903801339",
+                        "38903801775",
+                        "38903801705",
+                        "38903801032"
+                    ],
+                    "pathHash": "61c811eb4863900f0d7036ddcac44cb567230fd5",
+                    "nameHash": "440053782afcb4b743165a2c8b396ac98bb9e8c7"
+                },
+                {
+                    "path": [
+                        {
+                            "name": "MODE_CODE",
+                            "value": "BY_PRODUCTS_IN_CART"
+                        }
+                    ],
+                    "values": [
+                        "38903899998",
+                        "38903899981",
+                        "38903801775",
+                        "38903801339",
+                        "38903801705"
+                    ],
+                    "pathHash": "03002eee57e4fc1533751a5d284e5036c9cda549",
+                    "nameHash": "440053782afcb4b743165a2c8b396ac98bb9e8c7"
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.agent.communication-method",
+            "description": "Используемый метод общения с клиентом",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "AVATAR"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.enrich-request.employee-context.endpoints",
+            "description": "Список эндпоинтов для которых будет производиться обогащение запроса данными сотрудника из контекста",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "/auto-navigation/api/v1/execution",
+                        "/auto-navigation/api/v1/execution/start"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.enrich-request.client-context.endpoints",
+            "description": "Список эндпоинтов для которых будет производиться обогащение запроса данными клиента из контекста ФЛ",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "/auto-navigation/api/v1/execution",
+                        "/auto-navigation/api/v1/execution/start"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.time-out.request.milliseconds.autogala_wildcard_http_client",
+            "description": "Тайм-аут на запрос (указывается в мс).",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "35000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.time-out.connection.milliseconds.autogala_wildcard_http_client",
+            "description": "ufs.httpclient.time-out.connection.milliseconds.autogala_wildcard_http_client",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "35000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "remotebeans.url",
+            "description": "URL до маршрутизатора Профиль ФЛ",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [
+                        {
+                            "name": "PLATFORM_RUNTIME_ENVIRONMENT",
+                            "value": "OPENSHIFT"
+                        }
+                    ],
+                    "values": [
+                        "http://mm-core-greenfield.online.sberbank.ru:7070"
+                    ],
+                    "pathHash": "f5d584c8d07644ae374b5179fc79f1222752916d",
+                    "nameHash": "8bcfe2332be77cb17b7d3a1b265c76f1cac3508f"
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.logger.level.success.resprofile_client",
+            "description": "Уровень логирования для успешных запросов к Профиль ФЛ",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "WARN"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.time-out.connection.milliseconds.resprofile_client",
+            "description": "timeout на установление соединения с профилем",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "1000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.time-out.request.milliseconds.resprofile_client",
+            "description": "Таймаут запроса до Профиля ФЛ.",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "8000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.connections.max.total.resprofile_client",
+            "description": "Максимальное количество открытых connection-ов от КМ-а до профиля",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "100"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.connections.max.per-route.resprofile_client",
+            "description": "Максимальное количество открытых connection-ов в рамках одного URL-а от КМ-а до профиля",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "100"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.validate-socket-connection-time.resprofile_client",
+            "description": "Время жизни между проверками соединения",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "2000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.propagate.request-headers.enable.resprofile_client",
+            "description": "Признак копирования заголовков в запрос из платформенного окружения",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "true"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "resprofile.clientside_masking.enabled",
+            "description": "Включено ли маскирование в клиентском модуле Профиля ФЛ",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "true"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.enable.resprofile_client",
+            "description": "Тогл на механизма circuit breaker для API Профиль ФЛ",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "false"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.failure-rate.threshold.percent.resprofile_client",
+            "description": "Максимальный процент ошибок в потоке запросов для API Профиль ФЛ",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "50"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.state.closed.request-buffer.size.request-count.resprofile_client",
+            "description": "Размер буфера запросов в режиме CLOSED, после заполнения которого рассчитывается процент ошибок в потоке запросов для API Профиль ФЛ",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "100"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.state.half-open.request-buffer.size.request-count.resprofile_client",
+            "description": "Размер буфера запросов в режиме HALF_OPEN, после заполнения которого рассчитывается процент ошибок в потоке запросов для API Профиль ФЛ",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "10"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.circuit-breaker.state.open.duration.milliseconds.resprofile_client",
+            "description": "Длительность режима OPEN механизма circuit breaker - режим в котором поток запросов прерван для API ФП Профиль ФЛ, в ms.",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "60000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.request.allowed-employee-numbers",
+            "description": "Табельные номера сотрудников, для которых включен функционал",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": []
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.product-hint.navigation-id-to-product",
+            "description": "Список navigationId продуктов в формате \"navigationId\":\"productId\"",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "\"me2me\":\"me2me\"",
+                        "\"transfers.cards\":\"transfer2card\""
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.product-hint.agent-start-execution.enabled",
+            "description": "Признак включения фичи подсказки по продуктам",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "true"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.product-hint.agent-start-execution-url",
+            "description": "Ручка запуска автоматизации подсказки по продукту",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "/auto-navigation/execution/hint/start"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.product-hint.agent-start-execution.allowed-vsp-list",
+            "description": "Список ВСП в которых разрешена подсказка по продукту",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "39903801339"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.product-hint.agent-start-execution.vsp-to-allowed-employees-list",
+            "description": "Список сотрудников по ВСП которым разрешена запуск подсказки по продуктам. Если * либо ограничения нет, то считается, что разрешено всем",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [
+                        {
+                            "name": "PRODUCT_HINT_VSP_ALLOWED",
+                            "value": "39903801339"
+                        }
+                    ],
+                    "values": [
+                        "1102965"
+                    ],
+                    "pathHash": "305c9b679bc82fc338129b748dba115b1093815c",
+                    "nameHash": "e10a7d62f1b74592be50cd41943128bffbcc637b"
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.product-hint.product-template-list-to-enriching",
+            "description": "Список шаблонов для обогощения запроса из СУП по продуктам",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [
+                        {
+                            "name": "PRODUCT_NAVIGATION_URL_TO_ENRICH_WITH_TEMPLATE_LIST",
+                            "value": "me2me"
+                        }
+                    ],
+                    "values": [],
+                    "pathHash": "f97a17b4a2f463a3fa05501e128b87746934e0f2",
+                    "nameHash": "f8e914fa20da968472da201d91018114f0222283"
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.product-hint.product-list-enrich-with-instruction-alias",
+            "description": "Список продуктов и шаблоны к ним",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [
+                        {
+                            "name": "PRODUCT_NAVIGATION_URL_TO_ENRICH_WITH_INSTRUCTION_ALIAS",
+                            "value": "me2me"
+                        }
+                    ],
+                    "values": [
+                        "cc-help-instruction"
+                    ],
+                    "pathHash": "7eeaea3b760cc527d2335557aba519294a52c1a0",
+                    "nameHash": "2fa5d9f0e16c748471eb186a012abd07813e7c5a"
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.product-hint.product-to-enrich-by-template",
+            "description": "Список продуктов, для которых требуется обогощение шаблоном из СУПОв",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "me2me"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.baseurl.bellai-pro-execution",
+            "description": "Базовая часть url'а Ball.AI.pro для работы с процессами выполнения сценариев",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "http://bella-pro-agent-prom-lb.omega.sbrf.ru:7070"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.baseurl.bellai-pro-instruction",
+            "description": "Базовая часть url'а Ball.AI.pro для работы со сценариями",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "http://bella-pro-agent-prom-lb.omega.sbrf.ru:7070"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.httpclient.time-out.request.milliseconds.bellai-pro-instruction",
+            "description": "Тайм-аут на запрос при работе со сценариями (указывается в ms)",
+            "dataType": "LONG",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "30000"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.baseurl.bellai-pro-translation",
+            "description": "Базовая часть url'а Ball.AI.pro для работы с переводом",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "http://bella-pro-agent-prom-lb.omega.sbrf.ru:7070"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.agent.giga-integration.giga-cluster-type",
+            "description": "Базовая часть url'а Ball.AI.pro для работы с переводом",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "SLA_PREFER_AND_COMMUNAL_GIGA_CLUSTER"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "ufs.baseurl.bellai-pro-relay",
+            "description": "Базовая часть url'а Ball.AI.pro для ретрансляции событий",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "http://bella-pro-agent-prom-lb.omega.sbrf.ru:7070"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.credit-account-hint.feature.enabled",
+            "description": "Признак включения фичи подсказок по кредитным счетам клиента",
+            "dataType": "BOOLEAN",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "true"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.credit-account-hint.product-list.enabled",
+            "description": "Список идентификаторов продуктов, для которых включена фича подсказок по кредитным счетам клиента.",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "transfers-me2me",
+                        "cards-cash-deposit"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.credit-account-hint.product-to-url.map",
+            "description": "Бандл состоящий из кода продукта и url в СБОЛ.про на котором разрешена автоматизация подсказки по кредитным счетам клиента",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [
+                        {
+                            "name": "CREDIT_ACCOUNT_HINT_AUTOMATION_PRODUCT_CODE",
+                            "value": "transfers-me2me"
+                        }
+                    ],
+                    "values": [
+                        "/transfers/me2me"
+                    ],
+                    "pathHash": "254c98ebd86cccf405a0d24c2084db9034a575d1",
+                    "nameHash": "8fdae0076aebb51fefa83640a8f84c09a01a7eaa"
+                },
+                {
+                    "path": [
+                        {
+                            "name": "CREDIT_ACCOUNT_HINT_AUTOMATION_PRODUCT_CODE",
+                            "value": "cards-cash-deposit"
+                        }
+                    ],
+                    "values": [
+                        "/cards/cash/deposit"
+                    ],
+                    "pathHash": "98bbb5fa55021521f3541fd1380c42f9d465d592",
+                    "nameHash": "8fdae0076aebb51fefa83640a8f84c09a01a7eaa"
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.credit-account-hint.product-to-vsp-list.map",
+            "description": "Бандл состоящий из идентификатора продукта и списка всп в которых разрешается запуск автоматизации подсказок кредитных счетов клиента",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [
+                        {
+                            "name": "CREDIT_ACCOUNT_HINT_AUTOMATION_PRODUCT_CODE",
+                            "value": "cards-cash-deposit"
+                        }
+                    ],
+                    "values": [
+                        "38903899998",
+                        "38903801339",
+                        "38903899981",
+                        "38903801032"
+                    ],
+                    "pathHash": "98bbb5fa55021521f3541fd1380c42f9d465d592",
+                    "nameHash": "8fdae0076aebb51fefa83640a8f84c09a01a7eaa"
+                },
+                {
+                    "path": [
+                        {
+                            "name": "CREDIT_ACCOUNT_HINT_AUTOMATION_PRODUCT_CODE",
+                            "value": "transfers-me2me"
+                        }
+                    ],
+                    "values": [
+                        "38903899998",
+                        "38903801339",
+                        "38903899981",
+                        "38903801032"
+                    ],
+                    "pathHash": "254c98ebd86cccf405a0d24c2084db9034a575d1",
+                    "nameHash": "8fdae0076aebb51fefa83640a8f84c09a01a7eaa"
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.agent.currency-symbol.undefined-value",
+            "description": "Символ валюты, которые будет устанавливаться, если из ПФЛ было возвращено неопределенное название валюты",
+            "dataType": "STRING",
+            "isList": false,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "У.Е."
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.agent.currency-name-to-symbol-value",
+            "description": "Список строковых пар через символ двоеточия, каждый элемент из которого составляет следующую пару. Первым является строковое название валюты получаемое из ПФЛ. Вторым значением является строковый символ которым должна представляться данная валюта.",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "РОССИЙСКИЙ РУБЛЬ:₽"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.agent.credit-account.no-credit-debt.hint-text-format",
+            "description": "Шаблонизированный контент текст формы подсказки по кредитной карте. По кредитной карте не имеется задолженности.",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "^[Кредитный лимит —](color:secondary) __%s %s__\n\n^[Общая задолженность —](color:secondary) __%s %s__"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.agent.credit-account.has-credit-debt.hint-text-format",
+            "description": "Шаблонизированный контент текст формы подсказки по кредитной карте. По кредитной карте имеется задолженность.",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "^[Кредитный лимит —](color:secondary) __%s %s__\n\n^[Общая задолженность —](color:secondary) __%s %s__\n\n&nbsp;\n\n^[Ближайший платёж —](color:secondary) __%s__\n\n^[Минимальный платёж —](color:secondary) __%s %s__"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.agent.credit-account.has-ovd-debt.hint-text.format",
+            "description": "Шаблонизированный контент текст формы подсказки по кредитной карте. По кредитной карте имеется просроченный платеж.",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [],
+                    "values": [
+                        "^[Кредитный лимит —](color:secondary) __%s %s__\n\n^[Общая задолженность —](color:secondary) __%s %s__\n\n&nbsp;\n\n^[Ближайший платёж —](color:secondary) __%s__\n\n^[Минимальный платёж —](color:secondary) __%s %s__\n\n&nbsp;\n\n^[Начало просрочки —](color:secondary) __%s__\n\n^[Просроченная задолженность —](color:secondary) __%s %s__"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "group": {
+            "id": "2dc2f0d5-710b-4396-b954-dcf7fe844470",
+            "dateTimeISO": "2026-03-25T11:50:37.855791"
+        },
+        "key": {
+            "tenant": "PRO-SBOL",
+            "scope": "AUTO-NAVIGATION_PRO-SBOL",
+            "location": "GF"
+        },
+        "parameter": {
+            "name": "bell-ai.credit-account-hint.product-to-hint-template-list.map",
+            "description": "Бандл состоящий из идентификатора продукта и списка шаблонов подсказок по кредитным счетам клиента",
+            "dataType": "STRING",
+            "isList": true,
+            "roles": [
+                "ManageParameters.ParameterRole.System"
+            ],
+            "bundles": [
+                {
+                    "path": [
+                        {
+                            "name": "CREDIT_ACCOUNT_HINT_AUTOMATION_PRODUCT_CODE",
+                            "value": "transfers-me2me"
+                        }
+                    ],
+                    "values": [
+                        "{\"trackedElementCoordinateSpec\": {\"elementTypeDescription\": \"Список элементов\", \"definedElementTypeText\": \"COMBOBOX\", \"uriPath\": \"/transfers/me2me\", \"pageDescription\": \"Страница перевода между своими счетам\", \"definedElementFormTitleText\": \"Куда\", \"definedElementHtmlId\": \"sbolpro:me2me:selector:dest\"}}"
+                    ],
+                    "pathHash": "254c98ebd86cccf405a0d24c2084db9034a575d1",
+                    "nameHash": "8fdae0076aebb51fefa83640a8f84c09a01a7eaa"
+                },
+                {
+                    "path": [
+                        {
+                            "name": "CREDIT_ACCOUNT_HINT_AUTOMATION_PRODUCT_CODE",
+                            "value": "cards-cash-deposit"
+                        }
+                    ],
+                    "values": [
+                        "{ \"trackedElementCoordinateSpec\": {\"elementTypeDescription\": \"Виджет ProductList с возможносью выбора карты\", \"uriPath\": \"/cards/cash/debit\", \"pageDescription\": \"Страница взноса наличных на карту.\", \"definedControlWidget\": \"ProductList\"}}"
+                    ],
+                    "pathHash": "98bbb5fa55021521f3541fd1380c42f9d465d592",
+                    "nameHash": "8fdae0076aebb51fefa83640a8f84c09a01a7eaa"
+                }
+            ]
+        }
+    }
+]

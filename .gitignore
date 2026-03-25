@@ -1,0 +1,13 @@
+# Maven
+/target/
+
+# Runtime DB and imports
+/configurations.db
+/data/
+
+# IDE/system
+/.idea/
+*.iml
+*.log
+.DS_Store
+Thumbs.db
