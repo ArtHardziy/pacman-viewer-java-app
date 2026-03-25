@@ -23,6 +23,13 @@ Commands:
   down          Stop and remove container
   logs          Show container logs
   status        Show container status
+
+Optional UI env vars:
+  CFGVIEW_UI_SCALE          (example: 1.5)
+  CFGVIEW_FONT_SCALE        (example: 1.35)
+  CFGVIEW_TABLE_ROW_HEIGHT  (example: 34)
+  CFGVIEW_WINDOW_WIDTH      (example: 2200)
+  CFGVIEW_WINDOW_HEIGHT     (example: 1300)
 USAGE
 }
 
@@ -55,6 +62,11 @@ up() {
       --name "${NAME}" \
       --userns keep-id \
       -e DISPLAY="${DISPLAY}" \
+      -e CFGVIEW_UI_SCALE \
+      -e CFGVIEW_FONT_SCALE \
+      -e CFGVIEW_TABLE_ROW_HEIGHT \
+      -e CFGVIEW_WINDOW_WIDTH \
+      -e CFGVIEW_WINDOW_HEIGHT \
       -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
       -v "${DATA_DIR}:/app/data" \
       -v "${PROJECT_DIR}:/workspace:ro" \
@@ -66,6 +78,11 @@ up() {
       --name "${NAME}" \
       --user "$(id -u):$(id -g)" \
       -e DISPLAY="${DISPLAY}" \
+      -e CFGVIEW_UI_SCALE \
+      -e CFGVIEW_FONT_SCALE \
+      -e CFGVIEW_TABLE_ROW_HEIGHT \
+      -e CFGVIEW_WINDOW_WIDTH \
+      -e CFGVIEW_WINDOW_HEIGHT \
       -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
       -v "${DATA_DIR}:/app/data" \
       -v "${PROJECT_DIR}:/workspace:ro" \

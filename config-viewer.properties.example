@@ -1,0 +1,6 @@
+# Copy to config-viewer.properties and tune for your display
+ui.scale=1.5
+font.scale=1.35
+table.rowHeight=34
+window.width=2200
+window.height=1300

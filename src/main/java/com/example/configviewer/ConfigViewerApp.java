@@ -5,10 +5,12 @@ import com.google.gson.*;
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
+import javax.swing.plaf.FontUIResource;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableRowSorter;
 import java.awt.*;
 import java.io.IOException;
+import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.sql.*;
@@ -21,6 +23,7 @@ import java.util.regex.Pattern;
 public class ConfigViewerApp {
     private static final String DB_URL = "jdbc:sqlite:configurations.db";
     private static final DateTimeFormatter TIME_FMT = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+    private static final String SETTINGS_FILE = "config-viewer.properties";
 
     private JFrame frame;
     private DefaultListModel<ConfigRecord> configListModel;
@@ -34,11 +37,24 @@ public class ConfigViewerApp {
     private JComboBox<ConfigRecord> compareA;
     private JComboBox<ConfigRecord> compareB;
     private DefaultTableModel compareTableModel;
+    private final AppUiSettings uiSettings;
+
+    public ConfigViewerApp() {
+        this(AppUiSettings.defaults());
+    }
+
+    public ConfigViewerApp(AppUiSettings uiSettings) {
+        this.uiSettings = uiSettings;
+    }
 
     public static void main(String[] args) {
+        AppUiSettings uiSettings = loadUiSettings();
+        applyUiScale(uiSettings.uiScale());
+        applyGlobalFontScale(uiSettings.fontScale());
+
         SwingUtilities.invokeLater(() -> {
             try {
-                ConfigViewerApp app = new ConfigViewerApp();
+                ConfigViewerApp app = new ConfigViewerApp(uiSettings);
                 app.initDb();
                 app.createAndShow();
             } catch (Exception e) {
@@ -54,7 +70,7 @@ public class ConfigViewerApp {
     private void createAndShow() {
         frame = new JFrame("Config JSON Viewer");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(1400, 820);
+        frame.setSize(uiSettings.windowWidth(), uiSettings.windowHeight());
         frame.setLocationRelativeTo(null);
 
         JPanel topPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
@@ -125,6 +141,7 @@ public class ConfigViewerApp {
 
         viewTable = new JTable(viewTableModel);
         viewTable.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
+        viewTable.setRowHeight(uiSettings.tableRowHeight());
         viewTable.getColumnModel().getColumn(0).setPreferredWidth(300);
         viewTable.getColumnModel().getColumn(1).setPreferredWidth(320);
         viewTable.getColumnModel().getColumn(2).setPreferredWidth(110);
@@ -196,6 +213,7 @@ public class ConfigViewerApp {
 
         JTable table = new JTable(compareTableModel);
         table.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
+        table.setRowHeight(uiSettings.tableRowHeight());
         table.getColumnModel().getColumn(0).setPreferredWidth(110);
         table.getColumnModel().getColumn(1).setPreferredWidth(390);
         table.getColumnModel().getColumn(2).setPreferredWidth(300);
@@ -670,6 +688,101 @@ public class ConfigViewerApp {
         return idx > 0 ? fileName.substring(0, idx) : fileName;
     }
 
+    private static AppUiSettings loadUiSettings() {
+        Properties props = new Properties();
+        Path settingsPath = Path.of(System.getProperty("user.dir"), SETTINGS_FILE);
+
+        if (Files.exists(settingsPath)) {
+            try (Reader reader = Files.newBufferedReader(settingsPath)) {
+                props.load(reader);
+            } catch (IOException ignored) {
+                // Если файл битый/недоступен, стартуем с дефолтами.
+            }
+        }
+
+        double uiScale = readDoubleSetting("cfgview.uiScale", "CFGVIEW_UI_SCALE", "ui.scale", props, 1.0, 3.0, 1.0);
+        double fontScale = readDoubleSetting("cfgview.fontScale", "CFGVIEW_FONT_SCALE", "font.scale", props, 1.0, 3.0, 1.0);
+        int rowHeight = readIntSetting("cfgview.tableRowHeight", "CFGVIEW_TABLE_ROW_HEIGHT", "table.rowHeight", props, 18, 80, 24);
+        int width = readIntSetting("cfgview.windowWidth", "CFGVIEW_WINDOW_WIDTH", "window.width", props, 1000, 5000, 1400);
+        int height = readIntSetting("cfgview.windowHeight", "CFGVIEW_WINDOW_HEIGHT", "window.height", props, 700, 4000, 820);
+
+        return new AppUiSettings(uiScale, fontScale, rowHeight, width, height);
+    }
+
+    private static double readDoubleSetting(String sysPropKey,
+                                            String envKey,
+                                            String fileKey,
+                                            Properties props,
+                                            double min,
+                                            double max,
+                                            double defaultValue) {
+        String raw = firstNonBlank(System.getProperty(sysPropKey), System.getenv(envKey), props.getProperty(fileKey));
+        if (raw == null) return defaultValue;
+
+        try {
+            double parsed = Double.parseDouble(raw.trim().replace(',', '.'));
+            if (parsed < min || parsed > max) return defaultValue;
+            return parsed;
+        } catch (NumberFormatException ignored) {
+            return defaultValue;
+        }
+    }
+
+    private static int readIntSetting(String sysPropKey,
+                                      String envKey,
+                                      String fileKey,
+                                      Properties props,
+                                      int min,
+                                      int max,
+                                      int defaultValue) {
+        String raw = firstNonBlank(System.getProperty(sysPropKey), System.getenv(envKey), props.getProperty(fileKey));
+        if (raw == null) return defaultValue;
+
+        try {
+            int parsed = Integer.parseInt(raw.trim());
+            if (parsed < min || parsed > max) return defaultValue;
+            return parsed;
+        } catch (NumberFormatException ignored) {
+            return defaultValue;
+        }
+    }
+
+    private static String firstNonBlank(String... values) {
+        for (String value : values) {
+            if (value != null && !value.isBlank()) {
+                return value;
+            }
+        }
+        return null;
+    }
+
+    private static void applyUiScale(double uiScale) {
+        if (uiScale <= 0 || Math.abs(uiScale - 1.0) < 0.0001) {
+            return;
+        }
+
+        if (System.getProperty("sun.java2d.uiScale") == null || System.getProperty("sun.java2d.uiScale").isBlank()) {
+            System.setProperty("sun.java2d.uiScale", Double.toString(uiScale));
+        }
+    }
+
+    private static void applyGlobalFontScale(double fontScale) {
+        if (fontScale <= 0 || Math.abs(fontScale - 1.0) < 0.0001) {
+            return;
+        }
+
+        UIDefaults defaults = UIManager.getLookAndFeelDefaults();
+        Enumeration<Object> keys = defaults.keys();
+        while (keys.hasMoreElements()) {
+            Object key = keys.nextElement();
+            Object value = defaults.get(key);
+            if (value instanceof FontUIResource font) {
+                int scaledSize = Math.max(11, Math.round(font.getSize2D() * (float) fontScale));
+                defaults.put(key, new FontUIResource(font.getName(), font.getStyle(), scaledSize));
+            }
+        }
+    }
+
     private record ConfigRecord(int id, String name, String fileName, String importedAt) {
         @Override
         public String toString() {
@@ -695,6 +808,16 @@ public class ConfigViewerApp {
                     && Objects.equals(tenant, other.tenant)
                     && Objects.equals(scope, other.scope)
                     && Objects.equals(location, other.location);
+        }
+    }
+
+    private record AppUiSettings(double uiScale,
+                                 double fontScale,
+                                 int tableRowHeight,
+                                 int windowWidth,
+                                 int windowHeight) {
+        static AppUiSettings defaults() {
+            return new AppUiSettings(1.0, 1.0, 24, 1400, 820);
         }
     }
 }

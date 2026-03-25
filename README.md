@@ -49,6 +49,12 @@ mvn -DskipTests package
 java -jar target/config-viewer-1.0.0-jar-with-dependencies.jar
 ```
 
+Для 4K-экрана можно сразу запустить увеличенным:
+
+```bash
+java -Dcfgview.uiScale=1.5 -Dcfgview.fontScale=1.35 -Dcfgview.tableRowHeight=34 -jar target/config-viewer-1.0.0-jar-with-dependencies.jar
+```
+
 ### 3) Как пользоваться
 
 1. Нажать `Импорт JSON` и выбрать файл.
@@ -69,6 +75,35 @@ java -jar target/config-viewer-1.0.0-jar-with-dependencies.jar
 
 - SQLite база: `configurations.db`
 - В контейнерном режиме рекомендуется хранить в `./data/configurations.db`
+
+## Настройка масштаба UI (4K, Linux)
+
+Приложение поддерживает настройку в 3 способа (приоритет сверху вниз):
+- JVM/System properties (`-D...`)
+- переменные окружения (`CFGVIEW_...`)
+- файл `config-viewer.properties` в рабочей директории
+
+Поддерживаемые параметры:
+- `ui.scale` / `cfgview.uiScale` / `CFGVIEW_UI_SCALE`
+- `font.scale` / `cfgview.fontScale` / `CFGVIEW_FONT_SCALE`
+- `table.rowHeight` / `cfgview.tableRowHeight` / `CFGVIEW_TABLE_ROW_HEIGHT`
+- `window.width` / `cfgview.windowWidth` / `CFGVIEW_WINDOW_WIDTH`
+- `window.height` / `cfgview.windowHeight` / `CFGVIEW_WINDOW_HEIGHT`
+
+Пример файла `config-viewer.properties`:
+
+```properties
+ui.scale=1.5
+font.scale=1.35
+table.rowHeight=34
+window.width=2200
+window.height=1300
+```
+
+Рекомендуемый стартовый пресет для 4K:
+- `ui.scale=1.4..1.7`
+- `font.scale=1.25..1.45`
+- `table.rowHeight=30..38`
 
 ## Git-репозиторий
 
@@ -105,6 +140,18 @@ Podman:
 
 ```bash
 CFGVIEW_RUNTIME=podman ./scripts/cfgviewctl.sh build && CFGVIEW_RUNTIME=podman ./scripts/cfgviewctl.sh up
+```
+
+С масштабом для 4K (Docker):
+
+```bash
+CFGVIEW_UI_SCALE=1.5 CFGVIEW_FONT_SCALE=1.35 CFGVIEW_TABLE_ROW_HEIGHT=34 ./scripts/cfgviewctl.sh up
+```
+
+С масштабом для 4K (Podman):
+
+```bash
+CFGVIEW_RUNTIME=podman CFGVIEW_UI_SCALE=1.5 CFGVIEW_FONT_SCALE=1.35 CFGVIEW_TABLE_ROW_HEIGHT=34 ./scripts/cfgviewctl.sh up
 ```
 
 ### Остановить контейнер (одна команда)
